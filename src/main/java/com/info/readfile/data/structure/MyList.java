@@ -1,4 +1,4 @@
-package com.info.readfile.info;
+package com.info.readfile.data.structure;
 
 
 import java.util.Iterator;
@@ -7,6 +7,10 @@ import java.util.LinkedList;
 public class MyList {
 
     public static void main(String[] args) {
+        linkedListExample();
+    }
+
+    public static void linkedListExample(){
         LinkedList<String> list = new LinkedList<String>();
         list.add("bangladesh");
         list.add("Canada");
@@ -31,8 +35,6 @@ public class MyList {
         while (it.hasNext()) {
             System.out.println("hi: " + it.next());
         }
-
     }
-
 
 }

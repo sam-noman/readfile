@@ -29,6 +29,7 @@ public class UseArrayList {
 
     @Override
     public void finalize(){
+        //garbage collection
         System.gc();
     }
 
